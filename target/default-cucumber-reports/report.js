@@ -1,260 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/walmart.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/koalapalace.feature");
 formatter.feature({
-  "name": "Walmart Urun Arama",
+  "name": "Koala Palace",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@walmart"
-    }
-  ]
-});
-formatter.scenarioOutline({
-  "name": "TC08_kullanici walmartta urun arar",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "kullanici \"https://walmart.com\" sayfasina gider",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "kullanici walmart aramakutusuna \"\u003ckelime\u003e\" yazar ve arar",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "Test Verileri",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "kelime"
-      ]
-    },
-    {
-      "cells": [
-        "calculator"
-      ]
-    },
-    {
-      "cells": [
-        "watch"
-      ]
-    },
-    {
-      "cells": [
-        "flower"
-      ]
-    }
-  ]
-});
-formatter.scenario({
-  "name": "TC08_kullanici walmartta urun arar",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@walmart"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici \"https://walmart.com\" sayfasina gider",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici walmart aramakutusuna \"calculator\" yazar ve arar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC08_kullanici walmartta urun arar",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@walmart"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici \"https://walmart.com\" sayfasina gider",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici walmart aramakutusuna \"watch\" yazar ve arar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "TC08_kullanici walmartta urun arar",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@walmart"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici \"https://walmart.com\" sayfasina gider",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici walmart aramakutusuna \"flower\" yazar ve arar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_aramakutusuna_yazar_ve_arar(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici walmart sonuc sayisini ekrana yazdirir",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.WalmartStepDefinitions.kullanici_walmart_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-});
-      "name": "@amazon"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici \"http://amazon.com\" sayfasina gider",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stepdefinitions.EbayStepDefinitions.kullanici_sayfasina_gider(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici dropdownda \"Books\" secer",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_dropdownda_secer(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici aramakutusuna \"Miserables\" yazar ve arar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici sonuc sayisini ekrana yazdirir",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/features/amazonsearch.feature");
-formatter.feature({
-  "name": "Amazon Arama",
-  "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@urunarama"
+      "name": "@koalapalace"
     }
   ]
 });
 formatter.background({
-  "name": "Oncesinde Caliscak Method (BeforeMethod)",
+  "name": "Koala Palace Admin Giris",
   "description": "",
   "keyword": "Background"
 });
@@ -262,107 +18,84 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici amazon sayfasina gider",
+  "name": "kullanici koalapalace admin sayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_koalapalace_admin_sayfasina_gider()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici kullaniciadi ve sifresini girer",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_kullaniciadi_ve_sifresini_girer()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici giris islemini gerceklestirir",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_giris_islemini_gerceklestirir()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "TC02_kullanici amazonda arama yapar",
+  "name": "TC26_kullanici hotelreservationlist sayfasinda verileri girerek reservation arar",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@urunarama"
+      "name": "@koalapalace"
     },
     {
-      "name": "@amazon"
+      "name": "@hotelreservationsearch"
     }
   ]
 });
 formatter.step({
-  "name": "kullanici aramakutusuna headphones yazar ve arar",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_headphones_yazar_ve_arar()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici sonuc sayisini ekrana yazdirir",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.uri("file:src/test/resources/features/parametre.feature");
-formatter.feature({
-  "name": "Amazon Urun Arama",
-  "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@urunarama1"
-    },
-    {
-      "name": "@amazon"
-    }
-  ]
-});
-formatter.scenario({
-  "name": "TC04_kullanici amazonda urun aramasi yapar",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@urunarama1"
-    },
-    {
-      "name": "@amazon"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "kullanici amazon sayfasina gider",
+  "name": "kullanici hotelroomreservationlist sayfasina gider",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_amazon_sayfasina_gider()"
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_hotelroomreservationlist_sayfasina_gider()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici aramakutusuna \"drone\" yazar ve arar",
+  "name": "kullanici hotelroomreservationlist hotelroomid bolumunde \"team06\" secer",
   "keyword": "And "
 });
 formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_aramakutusuna_yazar_ve_arar(java.lang.String)"
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_hotelroomreservationlist_hotelroomid_bolumunde_secer(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "kullanici sonuc sayisini ekrana yazdirir",
+  "name": "kullanici hotelroomreservationlist arama kutusuna tiklar",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_hotelroomreservationlist_arama_kutusuna_tiklar()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "kullanici hotelroomreservationlist kayitlarini inceler",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stepdefinitions.AmazonStepDefinitions.kullanici_sonuc_sayisini_ekrana_yazdirir()"
+  "location": "stepdefinitions.KoalaPalaceStepDef.kullanici_hotelroomreservationlist_kayitlarini_inceler()"
 });
 formatter.result({
   "status": "passed"
