@@ -2,15 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080279f7-8bc6-4ca8-93d8-f7dac2e87cfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/database_stepdefinitions/DbCreateStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/database_stepdefinitions/DbReadStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/database_stepdefinitions/DbUpdateStepDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/DbRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/DBUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dbcreate.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dbokuma.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/dbupdate.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/KoalaPalacePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/KoalaPalacePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/KoalaPalaceRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/KoalaPalaceRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleAramaStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleAramaStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/KoalaPalaceStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/KoalaPalaceStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/koalapalace.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/koalapalace.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/EbayStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/EbayStepDefinitions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/embedded0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/json-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/json-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/AmazonPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/AmazonPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/EbayPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/EbayPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/GooglePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/WalmartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/WalmartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/AmazonStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/AmazonStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/EbayStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/EbayStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleAramaStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/GoogleAramaStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/stepdefinitions/WalmartStepDefinitions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepdefinitions/WalmartStepDefinitions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utilities/ConfigurationReader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/xml-report/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/xml-report/cucumber.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +62,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -56,7 +73,52 @@
       <recent name="stepdefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KoalaPalaceRunner">
+  <component name="RunManager" selected="JUnit.DbRunner">
+    <configuration name="DBRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.DBRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.DbRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EbayRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberProje" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.EbayRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KoalaPalaceRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberProje" />
       <extension name="coverage">
@@ -89,6 +151,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DbRunner" />
+        <item itemvalue="JUnit.DBRunner" />
+        <item itemvalue="JUnit.EbayRunner" />
         <item itemvalue="JUnit.KoalaPalaceRunner" />
         <item itemvalue="JUnit.Runner" />
       </list>
@@ -108,36 +173,36 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1322" height="422" key="GridCell.Tab.0.bottom" timestamp="1601668220662">
+    <state width="1322" height="530" key="GridCell.Tab.0.bottom" timestamp="1604434623944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="422" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601668220662" />
-    <state width="1322" height="468" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600965209170" />
-    <state width="1322" height="422" key="GridCell.Tab.0.center" timestamp="1601668220662">
+    <state width="1322" height="530" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1604434623944" />
+    <state width="1322" height="237" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604334078156" />
+    <state width="1322" height="530" key="GridCell.Tab.0.center" timestamp="1604434623944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="422" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601668220662" />
-    <state width="1322" height="468" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600965209170" />
-    <state width="1322" height="422" key="GridCell.Tab.0.left" timestamp="1601668220661">
+    <state width="1322" height="530" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1604434623944" />
+    <state width="1322" height="237" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604334078155" />
+    <state width="1322" height="530" key="GridCell.Tab.0.left" timestamp="1604434623944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="422" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601668220661" />
-    <state width="1322" height="468" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600965209169" />
-    <state width="1322" height="422" key="GridCell.Tab.0.right" timestamp="1601668220662">
+    <state width="1322" height="530" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1604434623944" />
+    <state width="1322" height="237" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604334078155" />
+    <state width="1322" height="530" key="GridCell.Tab.0.right" timestamp="1604434623944">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="422" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601668220662" />
-    <state width="1322" height="468" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600965209170" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1600960974009">
+    <state width="1322" height="530" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1604434623944" />
+    <state width="1322" height="237" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604334078156" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1604428175553">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1600715205269" />
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1604428175553" />
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600960974009" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1601661709863">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1604424161429">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1601661709863" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600997700537" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.768@0.0.1366.728" timestamp="1604424161429" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1602551672959" />
     <state x="65" y="71" key="new project wizard" timestamp="1601233438625">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

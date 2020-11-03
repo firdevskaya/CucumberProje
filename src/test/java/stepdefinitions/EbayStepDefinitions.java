@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.EbayPage;
 import utilities.Driver;
@@ -24,6 +25,7 @@ public class EbayStepDefinitions {
     public void kullanici_ebaydaki_sonuc_sayisini_ekrana_yazar() {
         String sonucSayisi = ebayPage.sonucSayisi.getText();
         System.out.println(sonucSayisi);
+        Assert.assertTrue(false);
     }
 
 
